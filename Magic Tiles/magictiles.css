@@ -1,0 +1,39 @@
+@keyframes Godown{
+    from{
+        top:-100px;
+    }
+    to{
+        top:550px;
+    }
+}
+
+.col-3{ 
+    padding: 0;
+    position:relative;
+    background-color:black;
+
+}
+#play_area{
+    border:2px solid rgb(255, 47, 116);
+}
+
+.box{
+    background-image:linear-gradient(rgb(255, 0, 183),rgb(162, 0, 255));
+}
+#play{
+    position: absolute;
+    top:40%;
+
+}
+#play .col-auto{
+    background-color:rgb(81, 13, 112);
+    padding:0 100px;
+    border-radius: 20px;
+    color:whitesmoke;
+    box-shadow: 0px 0px 20px rgb(255, 69, 224);
+
+}
+#score-menu{
+    color:white;
+}
+
